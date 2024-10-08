@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: irobinso <irobinso@student.42lausanne.c    +#+  +:+       +#+        */
+/*   By: irobinso <irobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/05 19:36:22 by irobinso          #+#    #+#             */
-/*   Updated: 2024/10/08 10:07:56 by irobinso         ###   ########.fr       */
+/*   Updated: 2024/10/08 13:45:53 by irobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,5 +46,8 @@ char	*ft_strnstr(const char *str, const char *search, size_t len);
 char	*ft_strrchr(const char *s, int c);
 int		ft_tolower(int argument);
 int		ft_toupper(int ch);
+char	*ft_substr(char const *s, unsigned int start, size_t len);
+char	*ft_strjoin(char const *s1, char const *s2);
+void	*ft_calloc(size_t count, size_t size);
 
 #endif
